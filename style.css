@@ -1,0 +1,70 @@
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* German flag styles*/
+
+.german-top {
+  background-color: black;
+  width: 250px;
+  height: 50px;
+}
+
+.german-middle {
+  background-color: red;
+  width: 250px;
+  height: 50px;
+}
+
+.german-bottom {
+  background-color: yellow;
+  width: 250px;
+  height: 50px;
+  
+}
+
+/* French flag styles*/
+.frenchflag {
+  background-color: white;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.frenchflag:before {
+  background-color: blue;
+  left: 0;
+  top: 0;
+  height: 150px;
+  width: 83.33px;
+  content: "";
+  position: absolute;
+}
+
+.frenchflag:after {
+  top: 0;
+  right: -250px;
+  background-color: red;
+  height: 150px;
+  width: 83.33px;
+  position: absolute;
+  content: "";
+}
+
+
+.germanflag:hover {
+  content: url(./images/download.png);
+  width: 250px;
+  height: 150px;
+}
+
+.frenchflag:hover {
+  content: url(./images/download\ \(1\).png);
+  height: 150px;
+  width: 249.99px;
+}
+
+
+
