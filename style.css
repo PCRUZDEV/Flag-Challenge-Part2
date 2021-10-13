@@ -56,17 +56,22 @@ body {
 
 /* The hover effects */
 
-.germanflag:hover {
-  content: url(./images/download.png);
-  width: 250px;
-  height: 150px;
+.germanflag:hover .german-top {
+  background-color: red;
 }
 
-.frenchflag:hover {
-  content: url(./images/download\ \(1\).png);
-  height: 150px;
-  width: 249.99px;
+.germanflag:hover .german-middle {
+  background-color: white;
 }
 
+.germanflag:hover .german-bottom {
+  background-color: green;
+}
 
+.frenchflag:hover:before {
+  background-color: green;
+}
 
+.frenchflag:hover:after {
+  background-color: orange;
+}
